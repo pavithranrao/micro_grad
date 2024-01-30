@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "micro-grad"
+version = "0.1.0"
+description = ""
+authors = ["pavi"]
+readme = "README.md"
+packages = [{include = "*", from="src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.3"
+pandas = "^2.2.0"
+networkx = "^3.2.1"
+graphviz = "^0.20.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
